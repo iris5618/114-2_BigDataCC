@@ -35,6 +35,107 @@
 
 ---
 
+## 課程進度表
+
+| 週次 | 主題 | 對應教科書 |
+|------|------|-----------|
+| 第 1 週 | 課程導論、Git 與 GitHub 基礎、機器學習概述 | 7-4 |
+| 第 2 週 | VS Code 與 GitHub 實作強化 | 7-1、7-5 |
+| 第 3 週 | 虛擬化技術與 Linux、首次 SSH 連線、Fork/PR 教學、**專題分組與組長建立專題 Repo** | 1-1、1-2 |
+| 第 4 週 | Linux 常用指令與 Bash Shell 基礎 | 3-1 |
+| 第 5 週 | nano 編輯器與 Shell Script 入門、**公布專題題目參考清單** | 3-2 |
+| 第 6 週 | Linux 使用者、權限與目錄結構、**個人題目探索繳交** | 3-3、3-4 |
+| 第 7 週 | Linux 套件管理與 Web 伺服器基礎 | 4-1、5-1 |
+| 第 8 週 | MySQL 資料庫基礎、**組內討論投票決定專題題目** | 5-3、5-4 |
+| 第 9 週 | **期中考** | |
+| 第 10 週 | Python 開發環境與基礎語法、**組長繳交專題提案** | 6-1、6-2 |
+| 第 11 週 | Pandas 資料清洗與轉換、專題提案審查 | |
+| 第 12 週 | Jupyter Notebook 與資料視覺化 | 6-4 |
+| 第 13 週 | 認識 Docker 與安裝設定 | 9-1、9-2、9-5 |
+| 第 14 週 | Docker 基本操作與 Dockerfile | 10-1～10-5、12-1 |
+| 第 15 週 | Python 大數據分析綜合實作 | |
+| 第 16 週 | 機器學習基礎與預訓練模型 | 8-3、8-4 |
+| 第 17 週 | Gradio AI 互動介面與模型部署、繳交期末報告 | 8-1、8-2 |
+| 第 18 週 | **期末考與專題發表** | |
+
+---
+
+## 期末專題
+
+### 專題說明
+
+本課程包含分組期末專題，要求使用 Docker 容器部署一個與**海事或海洋**相關的資料分析或 AI 應用。
+
+### 專題時程
+
+| 週次 | 階段 | 說明 |
+|------|------|------|
+| 第 3 週 | 分組與建立 Repo | 公布分組名單，組長從專題模板建立小組 Repo，邀請組員、老師、助教為 Collaborator |
+| 第 5 週 | 題目探索 | 公布專題題目參考清單，每人開始蒐集有興趣的題目 |
+| 第 6 週 | 個人選題 | 每人在自己的 Fork 中建立 `my-topics/` 資料夾，提出 1-3 個題目構想 |
+| 第 8 週 | 組內討論 | 各組從所有成員的題目中討論、投票，選出小組題目 |
+| 第 10 週 | 正式提案 | 組長在專題 Repo 繳交 proposal/proposal.md |
+| 第 11 週 | 提案審查 | 教師審查提案，提供修改建議 |
+| 第 12-15 週 | 開發 | 資料收集、分析、系統開發 |
+| 第 16 週 | 整合測試 | 確保 Docker 部署正常 |
+| 第 17 週 | 準備發表 | 繳交期末報告和投影片 |
+| 第 18 週 | 期末發表 | 口頭報告 + Demo |
+
+### 專題 Repo 建立方式（組長操作）
+
+1. 前往專題模板：`https://github.com/pychang-ai/114-2_BigDataCC-project-template`
+2. 點選「**Use this template**」>「**Create a new repository**」
+3. Repository name 填入 `114-2_BigDataCC-G01`（替換為組別編號）
+4. 設為 **Public**，點選 **Create repository**
+5. 進入 Settings > Collaborators > Add people，依序加入：
+   - 所有組員（權限：Write）
+   - 老師 `pychang-ai`（權限：Write）
+   - 助教帳號（權限：Write）
+6. 被邀請的人需到 GitHub 通知中點選「**Accept invitation**」才能存取
+
+### 專題評分標準
+
+| 項目 | 配分 |
+|------|------|
+| 專題提案 | 10 分 |
+| 資料分析品質 | 20 分 |
+| 程式碼品質 | 20 分 |
+| Docker 部署 | 20 分 |
+| GitHub 管理 | 10 分 |
+| 口頭報告與 Demo | 15 分 |
+| 文件完整度 | 5 分 |
+
+---
+
+## 課程工具對應表
+
+| 工具/平台 | 導入週次 | 使用範圍 |
+|----------|---------|---------|
+| GitHub + Git | 第 1 週 | 全學期作業繳交與版本控制 |
+| VS Code | 第 1 週 | 全學期程式開發 IDE |
+| Fork + Pull Request | 第 3 週 | 全學期作業繳交方式 |
+| AWS EC2 + Docker 容器 | 第 3 週 | Linux 練習環境 |
+| Apache + PHP + MySQL | 第 7-8 週 | Web 伺服器與資料庫實作 |
+| Python + Miniconda | 第 10 週 | Python 開發與資料分析 |
+| Pandas + NumPy | 第 10 週 | 資料清洗、轉換、統計分析 |
+| Jupyter Notebook | 第 12 週 | 互動式資料分析與視覺化 |
+| Matplotlib + Seaborn | 第 12 週 | 資料視覺化 |
+| Docker Desktop + Dockerfile | 第 13 週 | 容器化技術與部署 |
+| Keras + KerasNLP | 第 16 週 | 機器學習與預訓練模型 |
+| Gradio | 第 17 週 | AI 模型部署互動介面 |
+
+## 評分比例
+
+| 項目 | 比例 |
+|------|------|
+| 平時作業（每週 Fork + PR） | 30% |
+| 期中考 | 25% |
+| 期末專題 | 25% |
+| 課堂參與 | 10% |
+| 加分任務 | 10% |
+
+---
+
 ## Git 基本流程
 
 ### 首次設定（只需做一次）
@@ -52,8 +153,8 @@ git config --global user.email "你的Email"
 2. Clone 你的 Fork 到本機：
 
 ```bash
-git clone https://github.com/你的帳號/114-2-BIGDATACC.git
-cd 114-2-BIGDATACC
+git clone https://github.com/你的帳號/114-2_BigDataCC.git
+cd 114-2_BigDataCC
 ```
 
 ### 每週作業流程
@@ -123,15 +224,16 @@ Step 3：到 GitHub 網頁發 Pull Request
 ## 作業資料夾結構
 
 ```
-114-2-BIGDATACC/
+114-2_BigDataCC/
 ├── README.md
+├── my-topics/             ← 個人題目探索（第 5-6 週）
+│   ├── topic1_xxx.md
+│   └── topic2_xxx.md
 ├── week03/
 │   ├── q1_basic.txt
 │   ├── q2_fileops.txt
 │   └── q3_compare.txt
 ├── week04/
-│   └── ...
-├── week05/
 │   └── ...
 └── ...
 ```
